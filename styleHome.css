@@ -1,0 +1,429 @@
+
+*{
+	font-family: 'Prompt', sans-serif;
+}
+
+/*Parallax Styling*/
+body{
+    padding: 0;
+    margin: 0;
+	height: 100vh;
+}
+
+.parallax1{
+	widows: 100%;
+	height: 70vh;
+	background-image: url(img_kku/trawel.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+	
+}
+
+.parallax1 h1{
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+.parallax4{
+	background-image: url(img_kku/pexels-pixabay-373543.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+    
+}
+
+
+.parallax5{
+	background-image: url(img_kku/pexels-pixabay-373543.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+/*navigation bar*/
+.navbar{
+    margin: 0%;
+    display: inline;
+}
+.navbar-inverse{
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #fff;
+	font-size: 30px;
+	margin-right: 40px;
+}
+
+#myNavbar .navbar-nav li a{
+	color: #fff;
+	font-size: 19px;
+	}
+#myNavbar #course{
+	transition: all 0.3s ease-in-out;
+}
+#myNavbar #course:hover{
+	background-color:rgb(03,20,47); 
+
+}
+
+
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #072C5F;
+  box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 190px;
+color: white;
+
+}
+
+.dropdown-menu li a{
+	color: white;
+}
+
+#sub-dropdown-menu li a{
+	width: 100%;
+	margin: 0;
+}
+
+#sub-dropdown-menu{
+display: none;
+  position: absolute;
+  background-color: #1D4B8B;
+  margin-left: 186px;
+  margin-top: -26px;
+  
+}
+
+#sub-dropdown-menu a , .dropdown-menu a {
+	color: white !important;
+		font-size: 16px !important;
+		
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;transition: all 0.5s ease-in-out;
+}
+
+.dropdown .dropdown-menu a:hover{
+	background-color: #c9c7c7;
+}
+
+
+#sub-dropdown:hover #sub-dropdown-menu {
+	display: block;
+}
+
+/*style slideshow content*/
+
+* {
+box-sizing: border-box;
+}
+
+img {
+vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+position: relative;
+margin-top: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+.mySlides img{
+	height: 300px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+text-align: center;
+background-color: #222;
+padding: 2px 16px;
+color: white;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Six columns side by side */
+.column {
+float: left;
+width: 16.66%;
+}
+.column img{
+	height: 80px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+/*map*/
+iframe{
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+}
+
+/*footer*/
+footer{
+	background-color: white;
+}
+footer h5{
+	text-transform: uppercase;
+	color: black;
+	font-size: 20px;
+}
+
+
+
+
+
+/*responsive*/
+
+/*phone*/
+@media only screen and (max-width:600px) {
+	.content2{
+	  width: 80%;
+	  padding: 0;
+	  font-size: 90%;
+	  height: 300px;
+	  margin-top: 40px;
+	  margin-right: 100px;
+	  object-fit: cover;
+	}
+    .content3{
+		width: 80%;
+	  padding: 0;
+	  font-size: 90%;
+	  height: 300px;
+	  margin-left: 90%;
+	  margin-bottom: 10px;
+	  margin-top: 30px;
+	  object-fit: cover;
+	}
+	.parallax2,.parallax3{
+		width: 100%;
+		margin-top: 20px;
+		height: auto;
+	}
+	iframe {
+	  width: 100%;
+	  margin: 0;
+	}
+  }
+
+  /*landscrape tablets,ipad*/
+  @media only screen and (max-width:768px) {
+
+	.content2{
+		width: 80%;
+		padding: 0;
+		font-size: 90%;
+		height: 300px;
+		margin-top: 40px;
+		margin-left: 10%;
+		clear: both;
+	  }
+	  .content3{
+		  width: 80%;
+		padding: 0;
+		font-size: 90%;
+		height: 300px;
+		margin-right: 10%;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	  }
+	  .parallax2,.parallax3{
+		  width: 100%;
+		  margin-top: 20px;
+		  height: auto;
+	  }
+	  iframe {
+		width: 100%;
+		margin: 0;
+		align-items: center;
+	  }
+      
+	}
+  
+	.parallax4{
+		width: 100%;
+		height: auto;
+		margin: 100px auto;
+	}
+  
+	.parallax5{
+	  width: 100%;
+	  height: auto;
+	}
+    /*content-2  Add media queries for smaller screens */
+
+    #text-size h2{
+        font-size: 600%;
+    }
+
+    .column-0{
+        width: auto;
+        cursor: pointer;
+    }
+    @media screen and (max-width:720px) {
+      .weekdays li, .days li {width: 13.1%;}
+    
+    .presen{
+        width: 80%;    
+        margin:10% auto ;
+        margin-bottom: -30%;
+    }
+}
+    @media screen and (max-width: 420px) {
+      .weekdays li, .days li {width: 12.5%;}
+      .days li .active {padding: 2px;}
+    
+    .presen{
+        width: 80%;    
+        margin:10% auto ;
+        margin-bottom: -30%;
+    }
+}
+    @media screen and (max-width: 290px) {
+      .weekdays li, .days li {width: 12.2%;}
+    
+
+    /**/
+
+    .presen{
+        width: 80%;    
+        margin:10% auto ;
+        margin-bottom: -30%;
+    }
+
+   } 
+
+    /*----------------------*/
+    html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column-0 {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column-0 {
+          width: 100%;
+          display: block;
+        }
+        .presen{
+            width: 80%;    
+            margin:10% auto ;
+            margin-bottom: -30%;
+        }
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .container {
+        padding: 0 16px;
+        font-size: 80%;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }

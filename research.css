@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(221, 215, 215);
+} 
+ *{
+     font-family: 'Prompt', sans-serif;
+ }
+.research-1{
+    width: 70%;
+    height: 250px;
+    margin: 100px auto;
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 10px;
+    border-left: 14px solid rgb(88, 88, 88);
+    border-right: 1px solid rgb(88, 88, 88);
+    border-top: 1px solid rgb(88, 88, 88);
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.research-1 img{
+    width: 80%;
+}
+
+.research-head2{
+    background-image: url('img_kku/pexels-thisisengineering-3861969.jpg');
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+    padding-top: 250px;
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+
+.research-head2 h2{
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 30px;
+}
+
+.data{
+    width: 70%;
+    height: auto;
+    border: 2px solid rgb(128, 109, 82);
+    margin:auto;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.data p,strong{
+    font-family: sans-serif;
+}
+.data h3{
+    width: 90%;
+    margin: 50px auto;
+    border-bottom:2px solid rgb(114, 94, 76) ;
+    padding-bottom: 30px;
+}
+
+@media(max-width:700px){
+    .data,.research-head2,img{
+        width: 100%;
+        border: none;
+    }
+}

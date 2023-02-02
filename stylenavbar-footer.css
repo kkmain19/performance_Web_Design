@@ -1,0 +1,101 @@
+/*navigation bar*/
+.navbar{
+    margin: 0%;
+    display: inline;
+}
+.navbar-inverse{
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #fff;
+	font-size: 30px;
+	margin-right: 40px;
+}
+
+#myNavbar .navbar-nav li a{
+	color: #fff;
+	font-size: 19px;
+	}
+#myNavbar #course{
+	transition: all 0.3s ease-in-out;
+}
+#myNavbar #course:hover{
+	background-color:rgb(03,20,47); 
+
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #072C5F;
+  box-shadow: 2px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 190px;
+color: white;
+
+}
+
+.dropdown-menu li a{
+	color: white;
+}
+
+#sub-dropdown-menu li a{
+	width: 100%;
+	margin: 0;
+}
+
+#sub-dropdown-menu{
+display: none;
+  position: absolute;
+  background-color: #1D4B8B;
+  margin-left: 186px;
+  margin-top: -26px;
+  
+}
+
+#sub-dropdown-menu a , .dropdown-menu a {
+	color: white !important;
+		font-size: 16px !important;
+		
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;transition: all 0.5s ease-in-out;
+}
+
+.dropdown .dropdown-menu a:hover{
+	background-color: #c9c7c7;
+}
+
+
+#sub-dropdown:hover #sub-dropdown-menu {
+	display: block;
+}
+.parallax1{
+	widows: 100%;
+	height: 50%;
+	background-image: url(img_kku/trawel.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+	
+}
+.parallax1 h1{
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	font-size: 60px;
+	font-weight: bold;
+}
+/*footer*/
+footer{
+    margin-bottom: -200%;
+    clear: both;
+}
+
+*{
+	font-family: 'Prompt', sans-serif;
+}
+

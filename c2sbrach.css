@@ -1,0 +1,80 @@
+
+.brach,.brach-2{
+    width: 100%;
+    height: 800px;
+    margin: 100px 0 ;
+    border-top: 5px solid rgb(140, 140, 143);
+    border-bottom: 5px solid rgb(140, 140, 143);
+}
+.card-brach {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    height: 600px;
+    float: right;
+    margin-right: -15%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 5px;
+    
+  }
+
+  .card-brach img{
+      width: 100%;
+      height: 570px;
+      border-radius: 5px;
+  }
+  
+  .card-brach,.text-brach:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  
+
+  .brachc2s-cards{
+      float: left;
+      width: 50%;
+      height: 800px;
+      background: -webkit-linear-gradient(top, rgba(255,0,0,0), rgb(4, 29, 255)); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(top, rgba(255,0,0,0), rgb(4, 29, 255)); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(top, rgba(255,0,0,0), rgb(4, 29, 255)); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to top, rgba(255,0,0,0), rgb(4, 29, 255)); /* Standard syntax (must be last) */
+  }
+  .text-brach{
+      float: left;
+      width: 55%;
+      height: 600px;
+      margin:10% 20%;
+      background-color: white;
+      border-radius: 5px;
+  }
+
+  .brachc2s-text{
+      float: left;
+      width: 50%;
+      height: 800px;
+  }
+
+  .card {
+      padding:20px 30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .card ul li{
+      list-style: none;
+      line-height: 30px;
+      word-wrap: break-word;
+  }
+
+
+
+  @media only screen and (max-width:700px){
+    .brachc2s-text,.text-brach,.card-brach,.brach-2,.brach, .brachc2s-cards {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  }
+
+  *{
+    font-family: 'Prompt', sans-serif;
+  }

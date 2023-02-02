@@ -1,0 +1,29 @@
+img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.map{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.map h2{
+ 
+    font-size: 300%;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+@media screen and (max-width:600px) {
+    img{
+        width: 100%;
+    }
+.map h2{
+width: 100%;
+}
+}
+*{
+    font-family: 'Prompt', sans-serif;
+}

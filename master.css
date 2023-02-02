@@ -1,0 +1,27 @@
+.master{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.master img{
+    border-radius: 5px;
+    width: 100%;
+}
+ 
+h2{
+    width: 50%;
+    border-bottom: 10px solid rgb(70, 67, 67);
+    margin: auto;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+@media only screen and (max-width:600px) {
+    .master{
+        width:100%
+    }
+    
+}
+*{
+       font-family: 'Prompt', sans-serif;
+}

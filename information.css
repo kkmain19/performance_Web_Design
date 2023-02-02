@@ -1,0 +1,33 @@
+*{
+    font-family: monospace;
+    text-align: center;
+}
+
+.container_0{
+    border-collapse:collapse ;
+    width: 60%;
+    font-size: 2em;
+    text-align: center;
+    margin:20px auto;
+    
+}
+
+.container_0 td, .container_0 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .container_0 tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .container_0 tr:hover {background-color: #ddd;}
+  
+  .container_0 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0439aa;
+    color: white;
+  }
+  *{
+    font-family: 'Prompt', sans-serif;
+  }
